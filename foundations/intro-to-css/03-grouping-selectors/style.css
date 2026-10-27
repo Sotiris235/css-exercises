@@ -1,1 +1,13 @@
-/* Add CSS Styling */
+.yes, .nope{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.yes{
+    background-color: black;
+    color: white;
+}
+
+.nope{
+    background-color: yellow;
+}
