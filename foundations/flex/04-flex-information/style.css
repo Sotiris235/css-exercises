@@ -10,6 +10,12 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display:flex;
+  justify-content: center;
+  padding:32px;
+
+  /*or apply text-align center to all text and add
+  margin-bottom*/
 }
 
 /* do not edit this footer */
@@ -24,3 +30,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.info{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:52px;
+}
+
+.items{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width:200px;
+}
+
+.text{
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+}
+
+
+/*no need to add to children the display:flex property*/
